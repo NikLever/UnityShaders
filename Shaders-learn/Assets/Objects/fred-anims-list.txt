@@ -1,0 +1,21 @@
+Zombie Commoner Animation List
+
+frame: 0030-0059 backpedal (loop)
+frame: 0090-0129 bite
+frame: 0164-0193 crawl (loop)
+frame: 0225-0251 die
+frame: 0255-0294 get hit from behind
+frame: 0300-0344 get hit from front
+frame: 0350-0384 get hit from left
+frame: 0390-0424 get hit from right
+frame: 0489-0548 idle (loop)
+frame: 0610-0659 jump
+frame: 0665-0739 roar
+frame: 0768-0791 run (loop)
+frame: 0839-0858 shuffle left (loop)
+frame: 0899-0918 shuffle right (loop)
+frame: 0940-0979 spawn
+frame: 1014-1043 strafe left (loop)
+frame: 1104-1133 strafe right (loop)
+frame: 1165-1229 swipe
+frame: 1264-1293 walk (loop)

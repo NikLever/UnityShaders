@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{07862C7E-66AB-D69A-A713-C5A4966ECAA3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/Shader32Unlit.shader">
+    <Files>
+      <File FileName="Assets/Shaders/Shader32Unlit.shader" Line="37" Column="1" />
+      <File FileName="Assets/Scripts/GirlController.cs" />
+      <File FileName="Assets/Shaders/Shader1Unlit.shader" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Shaders" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+              <Node name="Shaders" expanded="True">
+                <Node name="Shader32Unlit.shader" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c4d82342-7587-49b6-9c5b-0f9f801f9b36" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

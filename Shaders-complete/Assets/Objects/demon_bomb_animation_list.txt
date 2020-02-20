@@ -1,0 +1,21 @@
+DEMON BOMB ANIMATION LIST
+
+frame: 006-075	idle (loop)
+frame: 078-115	walk (loop)
+frame: 119-156	spawn
+frame: 160-171	blowup
+frame: 175-200	get hit from right
+frame: 204-229	get hit from left
+frame: 233-270	get hit from front
+frame: 274-299	attack1
+frame: 303-344	attack2
+frame: 348-384	attack3
+frame: 351-360	attack3 (loop)
+frame: 388-438	jump
+frame: 444-500	death
+frame: 504-534	shuffle right (loop)
+frame: 538-569	shuffle left (loop)
+frame: 573-591	run (loop)
+frame: 595-606	strafe left (loop)
+frame: 611-623	strafe right (loop)
+frame: 625-646	backpedal (loop)
