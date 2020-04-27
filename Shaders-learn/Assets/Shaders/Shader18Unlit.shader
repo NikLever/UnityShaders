@@ -1,4 +1,4 @@
-﻿Shader "NiksShaders/Shader19Unlit"
+﻿Shader "NiksShaders/Shader18Unlit"
 {
     Properties
     {
@@ -54,7 +54,6 @@
             float circle(float2 pt, float2 center, float radius, float line_width, float edge_thickness){
                 pt -= center;
                 float len = length(pt);
-                //Change true to false to soften the edge
                 float result = smoothstep(radius-line_width/2.0-edge_thickness, radius-line_width/2.0, len) - smoothstep(radius + line_width/2.0, radius + line_width/2.0 + edge_thickness, len);
 
                 return result;

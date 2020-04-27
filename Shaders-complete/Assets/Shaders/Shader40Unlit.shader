@@ -46,7 +46,8 @@
                 float2 pos = i.position.xy * 2.0;
                 float len = length(pos);
                 float2 ripple = i.uv + pos/len*0.03*cos(len*12.0-_Time.y*4.0);
-                float delta = (((sin(_Time.y)+1.0)/2.0)* _Duration)/_Duration;
+                float theta = fmod(_Time.y, _Duration) * (UNITY_TWO_PI/_Duration);
+                float delta = (sin(theta)+1.0)/2.0);
                 float2 uv = lerp(ripple, i.uv, 0);
                 fixed3 color = tex2D(_MainTex, uv).rgb;
 

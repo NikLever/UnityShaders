@@ -37,7 +37,6 @@
                 float3 normal = normalize(v.vertex.xyz);
                 float4 s = float4(normal * _Radius * 0.01, v.vertex.w);
                 float4 pos = lerp(v.vertex, s, delta);
-                half3 dNormal = lerp(v.normal, normal, delta);
 
                 o.vertex = UnityObjectToClipPos(pos);
                 o.diff = 1;

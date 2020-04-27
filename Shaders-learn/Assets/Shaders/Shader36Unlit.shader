@@ -48,7 +48,7 @@
 
             float4 frag (v2f i) : COLOR
             {
-                float pos = i.position.xyz * 2;
+                float3 pos = i.position.xyz * 2;
                 float delta = 1;
                 fixed3 color = lerp(_DarkColor, _PaleColor, delta);
 

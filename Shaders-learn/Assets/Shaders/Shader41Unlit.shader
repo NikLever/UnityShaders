@@ -50,7 +50,7 @@
                 float2 p = -1.0 + 2.0 * i.uv;
                 float len = length(p);
                 float2 ripple = i.uv + (p/len)*cos(len*12.0-time*4.0)*0.03;
-                float delta = time/_Duration;
+                float delta = saturate(time/_Duration);
                 float2 uv = lerp(ripple, i.uv, delta);
                 fixed3 col1 = tex2D(_TextureA, uv).rgb;
                 fixed3 col2 = tex2D(_TextureB, uv).rgb;

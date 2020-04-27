@@ -33,6 +33,7 @@
                 v2f o;
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.position = v.vertex;
+                o.uv = v.texcoord;
                 o.screenPos = ComputeScreenPos(o.vertex);
                 return o;
             }
@@ -40,8 +41,14 @@
             fixed4 _Color;
             float _LineWidth;
             
+            float getDelta( float x ){
+            	return (sin(x) + 1.0)/2.0;
+            }
+            
             fixed4 frag (v2f i) : SV_Target
             {
+            	float pos = i.position.xy * 2;
+            	
                 fixed3 color = _Color; 
                 
                 return fixed4(color, 1.0);

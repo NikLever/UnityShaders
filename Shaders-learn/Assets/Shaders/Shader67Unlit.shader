@@ -19,8 +19,8 @@
             
             #include "UnityCG.cginc"
 
-            #define STEPS 32
-            #define STEP_SIZE 0.04
+            #define STEPS 100
+            #define STEP_SIZE 0.0175
 
             float _Radius;
             float3 _Center;

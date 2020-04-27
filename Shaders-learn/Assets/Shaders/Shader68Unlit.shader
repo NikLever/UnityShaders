@@ -40,16 +40,10 @@
                  return o;
             }
 
-            float raymarch (float3 position, float3 direction)
-            {
-                 return 1; // White
-            }
-
             // Fragment function
             fixed4 frag (v2f i) : SV_Target
             {
-                 float3 viewDir = normalize(i.worldPos - _WorldSpaceCameraPos);
-                 float alpha = raymarch (i.worldPos, viewDir);
+                float alpha = 1;
                 return fixed4(1,1,1,alpha);
             }
             ENDCG
