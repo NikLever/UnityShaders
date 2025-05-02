@@ -18,7 +18,7 @@
             #pragma fragment frag
 
             #include "UnityCG.cginc"
-            #include "noiseSimplex.cginc"
+            #include "../includes/noiseSimplex.cginc"
 
             struct v2f
             {
