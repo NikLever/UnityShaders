@@ -35,8 +35,8 @@
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed3 color = i.position * 2;
-                color.r = step(0.0, color.r);
-                color.g = step(0.0, color.g);
+                color.r = step(0, color.r);
+                color.g = step(0, color.g);
                 return fixed4(color, 1.0);
             }
             ENDCG

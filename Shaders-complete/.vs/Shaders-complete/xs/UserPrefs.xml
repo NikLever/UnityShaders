@@ -1,9 +1,25 @@
 ﻿<Properties StartupConfiguration="{ADC05C00-B34B-075D-6AC7-0229029560A6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/Shader30Unlit.shader">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/Shader46aUnlit.shader">
     <Files>
-      <File FileName="Assets/Shaders/Shader30Unlit.shader" Line="64" Column="50" />
-      <File FileName="Assets/Shaders/Shader31Unlit.shader" Line="53" Column="28" />
-      <File FileName="Assets/Shaders/Shader40Unlit.shader" Line="52" Column="45" />
+      <File FileName="Assets/Shaders/Shader30Unlit.shader" />
+      <File FileName="Assets/Shaders/Shader31Unlit.shader" />
+      <File FileName="Assets/Shaders/Shader40Unlit.shader" />
+      <File FileName="Assets/Shaders/Shader22Unlit.shader" />
+      <File FileName="Assets/Shaders/Shader1Unlit.shader" />
+      <File FileName="Assets/Shaders/Shader2Unlit.shader" />
+      <File FileName="Assets/Shaders/Shader3Unlit.shader" />
+      <File FileName="Assets/Shaders/Shader4Unlit.shader" />
+      <File FileName="Assets/Shaders/Shader5Unlit.shader" />
+      <File FileName="Assets/Shaders/Shader6Unlit.shader" />
+      <File FileName="Library/PackageCache/com.unity.purchasing@4.8.0/Editor/UnityPurchasingEditor.cs" Line="404" Column="95" />
+      <File FileName="Assets/Shaders/Shader46UnLit.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shaders/Shader47UnLit.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shaders/Shader48UnLit.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shaders/Shader49UnLit.shader" Line="21" Column="56" />
+      <File FileName="Assets/Shaders/Shader46aUnlit.shader" Line="40" Column="82" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,20 +27,15 @@
           <Node name="Shaders-complete" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True" />
-              <Node name="Shaders" expanded="True">
-                <Node name="Shader30Unlit.shader" selected="True" />
-              </Node>
+              <Node name="Shaders" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6d39251e-221f-4f13-bb14-3d3e277a2791" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aa90d21a-87d9-4250-8919-3d9719f887bc" />
 </Properties>

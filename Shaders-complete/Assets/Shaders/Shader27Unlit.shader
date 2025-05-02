@@ -21,6 +21,10 @@
                 const float b = 78.233;
                 const float c = 43758.543123;
                 return frac(sin(dot(pt, float2(a, b))) * c );
+                //const float a = -3.14;
+                //const float b = 3.14;
+                //const float c = 1;
+                //return sin(dot(pt, float2(a, b))) * c;
             }
 
             fixed4 frag (v2f_img i) : SV_Target
